@@ -1,0 +1,166 @@
+body {
+    overflow: auto;
+}
+/* test */
+
+.max-height {
+  min-height: 100vh;
+}
+
+.linear-g {
+  background: linear-gradient( 120deg, #ffee00,#0616a8,#b80606,#ffee00);
+}
+
+.quote-container { 
+  background: rgba(98, 189, 14, 0.274);
+}
+
+#generate-btn {
+  border-color: #64b6ac !important;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+#generate-btn:hover {
+  background: linear-gradient( 120deg, #08c928,#0616a8);
+}
+.author {
+  color: #64b6ac;
+}
+
+/* test */
+.navbar {
+  border-bottom: 5px solid coral;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+  
+.navbar .nav-item.active {
+  border-left: rgb(107, 4, 224) 3px solid;
+}
+
+
+.navbar .nav-item.active:hover {
+  border-right: rgb(107, 4, 224) 3px solid;
+}
+
+.card-1{
+  background-image: url('../img/image1.jpg');
+  background-size: cover;
+  height: 50vh;
+}
+
+.card-ram {
+  width: 22rem;
+}
+
+.card-2 {
+  background-image: url('../img/image2.jpg');
+  background-size: cover;
+  height: 50vh;
+}
+
+.card-3 {
+  background-image: url('../img/image3.jpg');
+  background-size: cover;
+  height: 50vh;
+}
+
+@media (max-width: 767px) {
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content h1 p {
+    font-size: 13px;
+  }
+
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  #responsiblity {
+    max-height: 500px;
+  }
+
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content h1 p {
+    font-size: 16px;
+  }
+  .card-ram {
+    width: 13rem;
+  }
+  .mar-top {
+    margin: 0 10px;
+  }
+  
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .card-ram {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar .nav-item:hover {
+    border-right: rgb(107, 4, 224) 3px solid;
+  }
+}
+
+
+#bg-box {
+  background-image: url('../img/lights.jpg');
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+.dark-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.6);
+}
+
+#what-we-do {
+  background-image: url('../img/media.jpg');
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+
+
+#main-footer {
+  background-color: #000;
+  color: #fff;
+}
+
+/* About page */
+
+.about-banner {
+  background-image: url('../img/image1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.about-img {
+  margin-top: -90px;
+}
